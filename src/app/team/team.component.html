@@ -1,0 +1,14 @@
+<div class="center-align">
+  <h2 mdTooltip="hi" class="primary-color">Meet the RxJS OSS Team</h2>
+</div>
+<div>
+  <md-list>
+    <md-list-item *ngFor="let team of teamData.team">
+      {{team.person}} has {{team.commits}} contributions. {{team.compliment}}
+    </md-list-item>
+  </md-list>
+</div>
+<div class="margin-top-10">
+  <button md-raised-button color="accent" (click)="openDialog()">Click here to contribute!</button>
+</div>
+<div mdTooltip="so cool">hey</div>

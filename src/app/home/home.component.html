@@ -1,0 +1,36 @@
+<div>
+  <h1 class="primary-color">Welcome to the New RxJS Docs</h1>
+  <img src="../assets/rxjs-transparent.png" alt="rxjs logo">
+</div>
+<div>
+  <p>RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.
+  </p>
+</div>
+<div>
+  <h2 class="primary-color">Progress? Yes.</h2>
+  <md-card>
+    <md-card-header>
+      <div>
+        <p class="center-align">
+          So basically we are still working on these docs, so hold tight!
+        </p>
+      </div>
+    </md-card-header>
+    <md-card-content>
+      <md-progress-bar color="accent" mode="indeterminate">
+      </md-progress-bar>
+    </md-card-content>
+  </md-card>
+</div>
+<div>
+  <h2 class="primary-color">Companies Using RxJS</h2>
+</div>
+<div>
+  <md-card *ngFor="let company of companiesData.companies">
+    {{company}}
+  </md-card>
+</div>
+<div class="margin-top-10">
+  <button md-raised-button color="primary" routerLink="/team">Learn More About The Team</button>
+</div>
+
